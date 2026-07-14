@@ -1,16 +1,89 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A personal portfolio website built with **React** and **JavaScript** to showcase projects, skills, and career goals.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Hero Section** - Eye-catching introduction with animated elements
+- **About Section** - Personal background and professional summary
+- **Projects Gallery** - Showcase of completed projects with descriptions
+- **Skills Section** - Technical skills and expertise areas
+- **Contact Section** - Easy way for visitors to get in touch
+- **Responsive Design** - Works beautifully on all devices
+- **Smooth Animations** - Engaging visual transitions and effects
 
-## React Compiler
+## 📁 Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```
+src/
+├── components/
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Footer.jsx
+│   ├── Header.jsx
+│   ├── Hero.jsx
+│   ├── Projects.jsx
+│   └── Skills.jsx
+├── styles/
+│   ├── About.css
+│   ├── Contact.css
+│   ├── Footer.css
+│   ├── Header.css
+│   ├── Hero.css
+│   ├── Projects.css
+│   └── Skills.css
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+```
 
-## Expanding the Oxlint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **React** - Frontend framework
+- **Vite** - Build tool and dev server
+- **CSS3** - Styling and animations
+- **JavaScript (ES6+)** - Interactive functionality
+
+## 📦 Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   cd PortFolio
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## 🔨 Build
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+## 📝 Customization
+
+- Edit component files in `src/components/` to update content
+- Modify styles in `src/styles/` to change the appearance
+- Update colors, fonts, and animations to match your brand
+- Add images to `src/assets/` and reference them in components
+
+## 📬 Contact
+
+Feel free to reach out through the contact section or connect on social media!
+
+---
+
+**Portfolio Website** © 2026
