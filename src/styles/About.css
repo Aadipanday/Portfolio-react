@@ -1,0 +1,145 @@
+/* About Section Styles */
+.about {
+  padding: 8rem 2rem;
+  background: #1f2937;
+  min-height: auto;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: start;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  order: -1;
+}
+
+
+.image-placeholder {
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 1 / 1.2;
+  background-image: url("../assets/Aadi.jpg");
+  background-size: auto;
+  background-position: center;
+  /* background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%); */
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  box-shadow: 0 20px 50px rgba(96, 165, 250, 0.25);
+  border: 2px solid rgba(96, 165, 250, 0.3);
+  flex-shrink: 0;
+}
+
+.about-text {
+  color: #d1d5db;
+  line-height: 1.9;
+}
+
+.about-text p {
+  margin-bottom: 1.8rem;
+  font-size: 1.05rem;
+  font-weight: 400;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.about-text p:last-of-type {
+  margin-bottom: 2.5rem;
+}
+
+.about-info {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  background: #111827;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 1px solid #374151;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.info-label {
+  font-weight: 600;
+  color: #60a5fa;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  font-size: 0.95rem;
+}
+
+.info-value {
+  color: #d1d5db;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+@media (max-width: 968px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-image {
+    order: 0;
+  }
+
+  .image-placeholder {
+    width: 600px;
+    height: 500px;
+  }
+
+  .about-info {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 5rem 2rem;
+  }
+
+  .about h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .image-placeholder {
+    width: 300px;
+    height: 450px;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}

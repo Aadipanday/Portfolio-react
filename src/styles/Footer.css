@@ -1,0 +1,32 @@
+/* Footer Styles */
+.footer {
+  background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+  border-top: 1px solid #374151;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 0.7rem 0;
+  opacity: 0.85;
+  color: #d1d5db;
+  font-weight: 400;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem;
+  }
+
+  .footer p {
+    font-size: 0.95rem;
+    margin: 0.5rem 0;
+  }
+}
